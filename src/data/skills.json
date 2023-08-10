@@ -1,0 +1,35 @@
+{
+    "welcomeText": "Hello. My name is",
+   
+    "product":[
+        {
+            "name": "TMT Steel Rods Trading :",
+            "text": "We deal with TMT Steel rods from some of the leading steel manufacturers. We handle various grades of steel (Fe500, Fe500D) in varying sizes (8mm- 32mm). We supply both small and larger volumes of TMT steel across Tamilnadu. Regular / Periodic supply of quality steel rods for projects at competitive project / wholesale pricing is also done for larger infrastructure developers. "
+        },
+        {
+            "name": "Ferrous Scrap : ",
+            "text": "We supply ferrous scrap of various grades to anywhere across Tamilnadu. We handle both domestic scrap and import quality scrap from across the globe. As a seasoned scrap trader, we can ensure committed on-time delivery of quality ferrous scrap of any volume. We undertake continuous, schedules monthly volumes of Ferrous scrap delivery."
+        },
+        {
+            "name": "MS Billets :",
+            "text": "Mild Steel (MS) – Billets of certified quality and (100mm- 120mm) grade can be supplied on regular basis across TamilNadu. "
+        }
+    ],
+   
+   
+    "socialLinks": [
+      {
+        "text": "LINKEDIN",
+        "to": "#"
+      },
+      {
+        "text": "TWITTER",
+        "to": "#"
+      },
+      {
+        "text": "INSTAGRAM",
+        "to": "#"
+      }
+    ]
+  }
+  

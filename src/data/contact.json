@@ -1,0 +1,15 @@
+{
+  
+  "contactInfo": [
+    {
+      "title": "Phone ",
+      "value": "+91 98420 88555"
+    },
+    {
+      "title": "Email",
+      "value": "dprabhusrikanth@gmail.com"
+    }
+  ],
+
+  "formspreeEndpoint": "https://formspree.io/f/xgebyqqz"
+}

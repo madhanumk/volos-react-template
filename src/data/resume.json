@@ -1,0 +1,36 @@
+{
+  "experience": {
+    "title": "Experience",
+    "expPiece": [
+      {
+        "description": "**2015 - 2017** Turpis metus sit diam purus leo in varius ac quam. Nunc amet tristique volutpat adipiscing vulputate phasellus. Eget enim aliquam euismod mauris in vitae viverra blandit lectus diam feugiat. Nunc amet tristique volutpat adipiscing vulputate phasellus. Eget enim aliquam euismod.",
+        "date": "2015"
+      },
+      {
+        "description": "**2017 - 2018** Rings of Uranus the only home we’ve ever known. Permanence of the stars Tunguska event drake equation encyclopaedia galactica great turbulent quisque risus arcu, ullamcorper id nunc quis, euismod tincidunt.",
+        "date": "2017"
+      },
+      {
+        "description": "**2018 - 2020** Eget enim aliquam euismod mauris in vitae viverra blandit lectus faucibus diam consequat maecenas turpis metus sit diam purus leo in varius. Nunc amet tristique volutpat adipiscing vulputate phasellus eget enim.",
+        "date": "2018"
+      },
+      {
+        "description": "**2020 - 2022** Tendrils of gossamer clouds, the ash of stellar alchemy tendrils of true gossamer clouds vangelis the sky calls to us rich in heavy atoms something. Turpis metus sit diam purus leo in varius ac quam. Nunc amet tristique volutpat adipiscing vulputate phasellus. Eget enim aliquam euismod mauris in vitae viverra blandit lectus diam feugiat.",
+        "date": "2020"
+      },
+      {
+        "description": "**2022 - 2025** Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In nec ipsum risus. Nulla vulputate pulvinar consectetur. Praesent semper sem eget nisl viverra, vitae vulputate metus placerat.",
+        "date": "2025"
+      }
+    ]
+  },
+  "coverLetter": {
+    "title": "Cover letter",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque nunc fames.",
+    "paragraphes": [
+      "Tallent Steel Industries India, started in the year 1994 is a trusted Steel Trading and Manufacturing company based out of Coimbatore. The company is engaged in the manufacture of TMT Rods of varying grades and has its own smelting and Re-bar unit. The company has very strong nexus with quality steel manufactures and is actively engaged in the trading of Ferrous Scrap, MS Billets and TMT bars.",
+      "The company has its operations in  Chennai   |    Madurai     |     Coimbatore      |      Salem     |      Trichy      |      Tirunelveli",
+      "Tallent Steel is ably run by its Managing Director Mr. Prabhu Srikanth. A dynamic professional , Prabhu Shrikanth is a qualified and practicing lawyer with versatile business interest viz. Steel Manufacture & Trading, Legal Advocacy – Civil, Corporate & Criminal, Agro Trading and Film Distribution."
+    ]
+  }
+}
