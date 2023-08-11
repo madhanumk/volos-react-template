@@ -3,7 +3,7 @@ import { Link as ScrollLink } from 'react-scroll';
 
 // Images
 import signature from '../assets/images/signature.png';
-
+import logo from "../assets/images/tallent.png"
 // Data
 import navData from '../data/navbar.json';
 
@@ -63,6 +63,7 @@ function Navbar({ isLanding }: NavbarProps) {
 
           <div className={navActive ? 'menu-holder open' : 'menu-holder'}>
             <div className="menu-wrapper relative">
+              <img src={logo} alt="" className='menu-logo'/>
               <nav id="header-main-menu">
                 <ul className="main-menu sm sm-clean">
                   {navData.navLinks.map((link, i) => (

@@ -5,6 +5,7 @@ import React, { Fragment, useState } from 'react';
 
 // Data
 import contactData from '../../data/contact.json';
+import homeData from '../../data/home.json';
 
 // ----------------
 
@@ -100,32 +101,32 @@ function Contact() {
   return (
     <section id="contact" className="section">
       <div className="section-wrapper block">
-        <div className="content-1300">
-          <div className="row">
+        <div className="content-1300 contact-sec">
+          <div className="row contact-main">
             <div className="one-half width-40">
-              {/* <p className="section-info">{contactData.description}</p>
-              {contactData.paragrapgs.map((parg, i) => (
-                <p key={'contact-parg-' + i}>{parg}</p>
-              ))} */}
-              {/* <p>
-                {contactData.contactInfo.map((info, i) => (
-                  <Fragment key={'contact-info-' + i}>
-                    <b>{info.title}</b> {info.value} <br />
-                  </Fragment>
+
+              <div> 
+                <h3>Contact Info</h3>
+                <b>PRABHU SRIKANTH</b><br />
+                <b>Phone  : </b> +91 98420 88555<br /> <b>Email :  </b>talentsteelindustriesindia22@gmail.com<br />
+              <b>Factory : </b>SF No. 476, K.G. Palayam Annur, Coimbatore - 641 697.<br />
+              <b>Address  : </b>134 & 135, 1st Floor, Broadway Road, Chennai - 600 104.<br />
+              <div className="social-links-contacts">
+                {homeData.socialLinks.map((link, i) => (
+                  <a key={'social-link-' + i} href={link.to}>
+                    {link.text}
+                  </a>
                 ))}
-              </p> */}
-              <p> <b>Phone  : </b> +91 98420 88555<br /> <b>Email :  </b> dprabhusrikanth@gmail.com<br /></p>
+              </div>
+              </div>
 
             </div>
 
             <div className="one-half width-55 last">
 
-
-
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.1505804441153!2d76.93795980911587!3d11.02732688909177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85815bb375b37%3A0x2ae31305026b56e8!2sRepute%20Digital%20Business%20Agency!5e0!3m2!1sen!2sin!4v1691584627900!5m2!1sen!2sin"
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.2836317456799!2d76.79084942459005!3d10.953209200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8673028332251%3A0x2c804348e17166ac!2sK%20G%20Palayam%20Temple!5e0!3m2!1sen!2sin!4v1691753495558!5m2!1sen!2sin"
                 width="100%"
-                height="500"
+                height="300"
                 style={{ border: 0 }}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"

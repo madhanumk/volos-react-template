@@ -182,6 +182,7 @@ sub {
 .width-40 {
   width: 40%;
   margin-right: 5%;
+  color: #fff;
 }
 
 .width-55 {
@@ -189,7 +190,14 @@ sub {
   margin-right: 5%;
 }
 
+.width-50 {
+  width: 50% !important;
+  margin-right: 5%;
+  color:#fff;
+}
+
 .last {
   margin-right: 0 !important;
   clear: right;
 }
+.pt-30{padding-top:30px;}

@@ -4,6 +4,8 @@
 // Data
 import resumeData from '../../data/resume.json';
 import { markdownToHTML } from '../../utils/converter';
+import aboutImage from '../../assets/images/aboutImage.jpg'
+import about from '../../assets/images/about.png'
 
 // -------------
 
@@ -12,10 +14,10 @@ function Resume() {
     <section id="resume" className="section">
       <div className="section-wrapper block">
         <div className="content-1300">
-          <div className="row">
-            <div className="one-half width-55">
+          <div className="row about-main">
+            <div className="one-half about1 width-50">
 
-              <h1>image section</h1>
+              <img src={about} alt='aboutImage' className="resume-sect-img" />
               {/* <h2 className="entry-title section-title">
                 {resumeData.experience.title}
               </h2>
@@ -35,7 +37,7 @@ function Resume() {
               </ul> */}
             </div>
 
-            <div className="one-half width-40 last">
+            <div className="one-half width-50 last pt-30">
               {/* <h2 className="entry-title section-title">
                 {resumeData.coverLetter.title}
               </h2>
