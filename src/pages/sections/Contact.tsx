@@ -6,6 +6,7 @@ import React, { Fragment, useState } from 'react';
 // Data
 import contactData from '../../data/contact.json';
 import homeData from '../../data/home.json';
+import logo from '../../assets/images/tallent.png'
 
 // ----------------
 
@@ -103,21 +104,23 @@ function Contact() {
       <div className="section-wrapper block">
         <div className="content-1300 contact-sec">
           <div className="row contact-main">
-            <div className="one-half width-40">
+            <div className="one-half width-40 contact-info">
 
               <div> 
+              <img src={logo} alt="logo" className='tallent-logo-contact' />
+              <p className='talent-steel'> Incepted in 1994, Tallent Steel Industries India supplies varying grades of TMT rods to meet the diverse residential and commercial construction requirements.</p>
                 <h3>Contact Info</h3>
                 <b>PRABHU SRIKANTH</b><br />
                 <b>Phone  : </b> +91 98420 88555<br /> <b>Email :  </b>talentsteelindustriesindia22@gmail.com<br />
               <b>Factory : </b>SF No. 476, K.G. Palayam Annur, Coimbatore - 641 697.<br />
               <b>Address  : </b>134 & 135, 1st Floor, Broadway Road, Chennai - 600 104.<br />
-              <div className="social-links-contacts">
+              {/* <div className="social-links-contacts">
                 {homeData.socialLinks.map((link, i) => (
                   <a key={'social-link-' + i} href={link.to}>
                     {link.text}
                   </a>
                 ))}
-              </div>
+              </div> */}
               </div>
 
             </div>
@@ -126,7 +129,7 @@ function Contact() {
 
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.2836317456799!2d76.79084942459005!3d10.953209200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8673028332251%3A0x2c804348e17166ac!2sK%20G%20Palayam%20Temple!5e0!3m2!1sen!2sin!4v1691753495558!5m2!1sen!2sin"
                 width="100%"
-                height="300"
+                height="500"
                 style={{ border: 0 }}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"

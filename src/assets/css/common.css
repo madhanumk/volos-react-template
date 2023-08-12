@@ -90,7 +90,7 @@ h4,
 h5,
 h6 {
   padding: 20px 0;
-  color: #f37b83;
+  color: #c9955d;
 }
 
 h1 {
@@ -193,11 +193,14 @@ sub {
 .width-50 {
   width: 50% !important;
   margin-right: 5%;
-  color:#fff;
+  color: #fff;
 }
 
 .last {
   margin-right: 0 !important;
   clear: right;
 }
-.pt-30{padding-top:30px;}
+
+.pt-10 {
+  padding-top: 10px;
+}

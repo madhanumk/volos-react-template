@@ -1,13 +1,10 @@
 import { useState } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 
-// Images
-import signature from '../assets/images/signature.png';
 import logo from "../assets/images/tallent.png"
-// Data
+
 import navData from '../data/navbar.json';
 
-// --------------
 
 type NavbarProps = {
   isLanding: boolean;
@@ -83,21 +80,6 @@ function Navbar({ isLanding }: NavbarProps) {
               </nav>
             </div>
           </div>
-
-          {/* <div className="my-info-wrapper">
-            {navData.navInfo.map((info, i) => (
-              <div className="my-info" key={'nav-info-' + i}>
-                <p className="my-info-title">{info.title}</p>
-                <p className="my-info-content">{info.text}</p>
-              </div>
-            ))}
-            <img className="my-info-signature" src={signature} alt="" />
-          </div>
-
-          <div className="big-num">
-            <div className="current-big-num">0{sectionNum}</div>
-            <div className="icon-scroll"></div>
-          </div> */}
         </header>
       </div>
     </div>

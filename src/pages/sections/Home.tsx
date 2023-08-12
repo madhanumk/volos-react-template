@@ -23,13 +23,13 @@ function Home() {
               Incepted in 1994, Tallent Steel Industries India supplies varying grades of TMT rods to meet the diverse residential and commercial construction requirements. We are one of the leading and trusted steel trading and manufacturing companies based in Coimbatore, with 18+ years of experience delivering reliable, durable and efficient TMT steel rods, Ferrous Scrap and MS Billets with a good understanding of our customers' precise needs.
               </p>
 
-              <div className="social-links">
+              {/* <div className="social-links">
                 {homeData.socialLinks.map((link, i) => (
                   <a key={'social-link-' + i} href={link.to}>
                     {link.text}
                   </a>
                 ))}
-              </div>
+              </div> */}
             </div>
            
           </div>

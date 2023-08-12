@@ -1,21 +1,91 @@
+
+@media screen and (max-width: 1921px) {
+.section {
+  background-color: #302729;
+  position: relative;
+  padding: 100px 0px;
+}
+.one-half{
+  margin-bottom: 0px;
+}
+.content-1300 {
+  max-width: 1920px;
+}
+.contact-sec {
+  padding: 120px 0px;
+}
+
+.content-left {
+  width: 90px;
+}
+
+.content-left-wrapper {
+  padding-left: 34px;
+}
+
+.content-right {
+  margin-left: 90px;
+  width: calc(100% - 90px);
+}
+
+.content-1300 {
+  margin: 0 auto;
+}
+
+.top-pagination,
+.my-info-wrapper,
+.big-num {
+  display: none;
+}
+
+.menu-wrapper {
+  padding-top: 0 !important;
+}
+
+.profile{
+  height: 100px;
+  width: 80px;
+}
+
+.resume-sect-img {
+  width: 100%;
+  height: 350px;
+}
+
+/* .about1 img {
+  width: 100%;
+  height: 350px;
+} */
+}
+
+
+
 @media screen and (max-width: 1599px) {
   .content-left {
-    width: 320px;
+    width: 90px;
   }
 
   .content-left-wrapper {
-    padding-left: 55px;
+    padding-left: 34px;
   }
 
   .content-right {
-    margin-left: 320px;
-    width: calc(100% - 320px);
+    margin-left: 90px;
+    width: calc(100% - 90px);
   }
 
-  .menu-holder {
-    width: 320px;
-    transform: translateX(-320px);
-    padding-left: 55px;
+  .content-1300 {
+    margin: 0 auto;
+  }
+
+  .top-pagination,
+  .my-info-wrapper,
+  .big-num {
+    display: none;
+  }
+
+  .menu-wrapper {
+    padding-top: 0;
   }
 
   .big-num {
@@ -31,7 +101,7 @@
   }
 
   .section {
-    padding: 75px 0px 50px 0px;
+    padding: 75px 0px 75px 0px;
   }
   
 
@@ -83,6 +153,7 @@
   .skill-percent {
     margin-top: 11px;
   }
+
 }
 
 @media screen and (max-width: 1360px) {
@@ -138,7 +209,7 @@
 @media screen and (max-width: 1300px) {
   .one-half {
     width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
     margin-right: 0;
   }
 
@@ -153,6 +224,12 @@
   .service-holder img {
     margin-bottom: 0;
   }
+  .about1 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
 }
 
 @media screen and (max-width: 1100px){
@@ -352,6 +429,19 @@
   .contact-sec{
     padding: 0px;
   }
+
+  .profile{
+    height: 100px;
+    width: 80px;
+  }
+
+  .one-half {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+
+
 }
 
 @media screen and (max-width: 767px) {
@@ -518,6 +608,10 @@
     height: 150vh;
   }
 
+  .profile{
+    height: 200px;
+    width: 80px;
+  }
   /* iframe {
     height: 350px;
   } */
